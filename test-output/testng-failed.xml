@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.TN.Utils.MyListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.TN.Test.RegisterTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="configureReports"/>
+          <include name="configureEnd"/>
+          <include name="close"/>
+          <include name="verifyRegisteringAnAccountWithAllFields"/>
+        </methods>
+      </class> <!-- com.TN.Test.RegisterTest -->
+      <class name="com.TN.Test.LoginTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="configureReports"/>
+          <include name="configureEnd"/>
+          <include name="close"/>
+          <include name="verifyLoggingWithInValidCredentials"/>
+          <include name="verifyLoggingWithoutCredentials"/>
+        </methods>
+      </class> <!-- com.TN.Test.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

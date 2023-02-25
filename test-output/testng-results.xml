@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="108143" started-at="2023-02-17T21:29:08Z" finished-at="2023-02-17T21:30:56Z">
+    <groups>
+      <group name="smoke">
+        <method signature="com.TN.Test.LoginTest.verifyLoggingWithInValidCredentials()" name="verifyLoggingWithInValidCredentials" class="com.TN.Test.LoginTest"/>
+      </group>
+      <group name="sanity">
+        <method signature="com.TN.Test.LoginTest.verifyLoggingWithInValidEmailAndValidPasswod()" name="verifyLoggingWithInValidEmailAndValidPasswod" class="com.TN.Test.LoginTest"/>
+      </group>
+    </groups>
+    <test name="Test" duration-ms="108143" started-at="2023-02-17T21:29:08Z" finished-at="2023-02-17T21:30:56Z">
+      <class name="com.TN.Test.LoginTest">
+        <test-method status="PASS" signature="configureReports()" name="configureReports" is-config="true" duration-ms="5883" started-at="2023-02-17T21:29:02Z" finished-at="2023-02-17T21:29:08Z">
+        </test-method>
+        <test-method status="PASS" signature="SetUp()" name="SetUp" is-config="true" duration-ms="42454" started-at="2023-02-17T21:29:08Z" finished-at="2023-02-17T21:29:50Z">
+        </test-method>
+        <test-method status="PASS" signature="verifyLoggingWithValidCredentails()" name="verifyLoggingWithValidCredentails" duration-ms="2880" started-at="2023-02-17T21:29:50Z" finished-at="2023-02-17T21:29:53Z">
+        </test-method>
+        <test-method status="PASS" signature="close(org.testng.ITestResult)" name="close" is-config="true" duration-ms="1449" started-at="2023-02-17T21:29:53Z" finished-at="2023-02-17T21:29:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: verifyLoggingWithValidCredentails STATUS:SUCCESS METHOD:com.TN.Test.LoginTest.verifyLoggingWithValidCredentails()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="SetUp()" name="SetUp" is-config="true" duration-ms="8215" started-at="2023-02-17T21:29:55Z" finished-at="2023-02-17T21:30:03Z">
+        </test-method>
+        <test-method status="PASS" signature="verifyLoggingWithInValidCredentials()" name="verifyLoggingWithInValidCredentials" duration-ms="1749" started-at="2023-02-17T21:30:03Z" finished-at="2023-02-17T21:30:05Z">
+        </test-method>
+        <test-method status="PASS" signature="close(org.testng.ITestResult)" name="close" is-config="true" duration-ms="1044" started-at="2023-02-17T21:30:05Z" finished-at="2023-02-17T21:30:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: verifyLoggingWithInValidCredentials STATUS:SUCCESS METHOD:com.TN.Test.LoginTest.verifyLoggingWithInValidCredentials()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="SetUp()" name="SetUp" is-config="true" duration-ms="8233" started-at="2023-02-17T21:30:06Z" finished-at="2023-02-17T21:30:14Z">
+        </test-method>
+        <test-method status="PASS" signature="verifyLoggingWithInValidEmailAndValidPasswod()" name="verifyLoggingWithInValidEmailAndValidPasswod" duration-ms="2836" started-at="2023-02-17T21:30:14Z" finished-at="2023-02-17T21:30:17Z">
+        </test-method>
+        <test-method status="PASS" signature="close(org.testng.ITestResult)" name="close" is-config="true" duration-ms="1209" started-at="2023-02-17T21:30:17Z" finished-at="2023-02-17T21:30:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: verifyLoggingWithInValidEmailAndValidPasswod STATUS:SUCCESS METHOD:com.TN.Test.LoginTest.verifyLoggingWithInValidEmailAndValidPasswod()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="SetUp()" name="SetUp" is-config="true" duration-ms="8698" started-at="2023-02-17T21:30:18Z" finished-at="2023-02-17T21:30:27Z">
+        </test-method>
+        <test-method status="PASS" signature="verifyLoggingWithValidEmailAndInValidPasswod()" name="verifyLoggingWithValidEmailAndInValidPasswod" duration-ms="1691" started-at="2023-02-17T21:30:27Z" finished-at="2023-02-17T21:30:28Z">
+        </test-method>
+        <test-method status="PASS" signature="close(org.testng.ITestResult)" name="close" is-config="true" duration-ms="854" started-at="2023-02-17T21:30:28Z" finished-at="2023-02-17T21:30:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: verifyLoggingWithValidEmailAndInValidPasswod STATUS:SUCCESS METHOD:com.TN.Test.LoginTest.verifyLoggingWithValidEmailAndInValidPasswod()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="SetUp()" name="SetUp" is-config="true" duration-ms="7330" started-at="2023-02-17T21:30:29Z" finished-at="2023-02-17T21:30:37Z">
+        </test-method>
+        <test-method status="PASS" signature="verifyLoggingWithoutCredentials()" name="verifyLoggingWithoutCredentials" duration-ms="1306" started-at="2023-02-17T21:30:37Z" finished-at="2023-02-17T21:30:38Z">
+        </test-method>
+        <test-method status="PASS" signature="close(org.testng.ITestResult)" name="close" is-config="true" duration-ms="936" started-at="2023-02-17T21:30:38Z" finished-at="2023-02-17T21:30:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: verifyLoggingWithoutCredentials STATUS:SUCCESS METHOD:com.TN.Test.LoginTest.verifyLoggingWithoutCredentials()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="SetUp()" name="SetUp" is-config="true" duration-ms="6487" started-at="2023-02-17T21:30:39Z" finished-at="2023-02-17T21:30:45Z">
+        </test-method>
+        <test-method status="PASS" signature="verifyForgottenPasswordLinkAvailableAndWorking()" name="verifyForgottenPasswordLinkAvailableAndWorking" duration-ms="1157" started-at="2023-02-17T21:30:45Z" finished-at="2023-02-17T21:30:47Z">
+        </test-method>
+        <test-method status="PASS" signature="close(org.testng.ITestResult)" name="close" is-config="true" duration-ms="1000" started-at="2023-02-17T21:30:47Z" finished-at="2023-02-17T21:30:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: verifyForgottenPasswordLinkAvailableAndWorking STATUS:SUCCESS METHOD:com.TN.Test.LoginTest.verifyForgottenPasswordLinkAvailableAndWorking()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="SetUp()" name="SetUp" is-config="true" duration-ms="6508" started-at="2023-02-17T21:30:48Z" finished-at="2023-02-17T21:30:54Z">
+        </test-method>
+        <test-method status="PASS" signature="verifyPlaceHolderAvailableOnEmailAndPasswordFields()" name="verifyPlaceHolderAvailableOnEmailAndPasswordFields" duration-ms="1166" started-at="2023-02-17T21:30:54Z" finished-at="2023-02-17T21:30:55Z">
+        </test-method>
+        <test-method status="PASS" signature="close(org.testng.ITestResult)" name="close" is-config="true" duration-ms="912" started-at="2023-02-17T21:30:55Z" finished-at="2023-02-17T21:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: verifyPlaceHolderAvailableOnEmailAndPasswordFields STATUS:SUCCESS METHOD:com.TN.Test.LoginTest.verifyPlaceHolderAvailableOnEmailAndPasswordFields()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="configureEnd()" name="configureEnd" is-config="true" duration-ms="1366" started-at="2023-02-17T21:30:56Z" finished-at="2023-02-17T21:30:58Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
